@@ -13,7 +13,7 @@ Simple Test of Verilog Chip creation, only includes one or gate currently
 
 ## How to test
 
-Explain how to use your project
+Test with the first two inputs and the first output.
 
 ## External hardware
 
