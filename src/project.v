@@ -25,6 +25,6 @@ module tt_um_test_chip_pius (
   assign uo_out[7:1] = 0;
 
   // List all unused inputs to prevent warnings
-  wire _unused = &{ena, clk, rst_n, 1'b0};
+  wire _unused = &{ena, clk, rst_n, 1'b0, ui_in[7:2], uio_in[7:0]};
 
 endmodule
